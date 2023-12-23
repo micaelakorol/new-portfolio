@@ -10,6 +10,28 @@ const dataProject = {
         image: "https://i.ibb.co/bd3hnV9/ciclo.png",
         visit: "https://ciclomarketing.digital/",
       },
+      {
+        id: 4,
+        infoProject: "📔Proyecto Personal",
+        description:
+          "Movie flix es un sitio de busqueda de peliculas. Permite navegar entre rutas, apreciar valoraciones de usuarios, cambiar de tema oscuro/claro y un formulario de contacto conectado a una base de datos creada en Cloud Firestore. API utilizada: 'The movie DB'",
+        stack: "Desarrollado con:Javascript, React, Firebase, CSS, Material UI",
+        url: "https://github.com/micaelakorol/app-movies-db",
+        image: "https://i.ibb.co/wJ3z26n/app-movies.png",
+        visit: "https://app-movies-db.netlify.app/",
+      },
+
+      {
+        id: 41,
+        infoProject: "Figures Training 💪",
+        description:
+         "Sitio Web para reservar asistencia a una clase. Permite al cliente: crearse su usuario, iniciar sesión, inscribirse a una clase (yoga,crossfit,etc), configurar su perfil personal básico.",
+        stack:
+          "Desarrollado con: Javascript, React, Firebase, Styled-components.",
+        url: "/",
+        image: "https://i.ibb.co/Jvr59g6/project.png",
+        visit: "https://site-figurestraining.netlify.app/",
+      },
   
       {
         id: 1,
@@ -31,7 +53,7 @@ const dataProject = {
         image: "https://i.ibb.co/fdQksVR/saludable.png",
         visit: "https://tienda-saludable.netlify.app/",
       },
-      {
+     /* {
         id: 4,
         infoProject: "🏆 Challenge",
         description:
@@ -40,27 +62,6 @@ const dataProject = {
         url: "https://github.com/micaelakorol/newsletter-challenge",
         image: "https://i.ibb.co/sPVrmBw/new.png",
         visit: "https://newsletter-challengefrontm.netlify.app/",
-      },
-       {
-        id: 4,
-        infoProject: "Desarrollo en proceso",
-        description:
-         "Permite al usuario registrarse, iniciar sesión e inscribirse a una clase. También configurar datos básicos de su perfil.",
-        stack:
-          "Desarrollado con: Styled-components, Javascript, React, Firebase",
-        url: "/",
-        image: "https://i.ibb.co/Jvr59g6/project.png",
-        visit: "https://site-figurestraining.netlify.app/",
-      },
-     /* {
-        id: 4,
-        infoProject: "📔Proyecto Personal",
-        description:
-          "Movie flix es un sitio de busqueda de peliculas. Permite navegar entre rutas, apreciar valoraciones de usuarios, cambiar de tema oscuro/claro y un formulario de contacto conectado a una base de datos creada en Cloud Firestore. API: 'the movie DB'",
-        stack: "Desarrollado con: CSS, Material UI, Javascript, React, Firebase",
-        url: "https://github.com/micaelakorol/app-movies-db",
-        image: "https://i.ibb.co/wJ3z26n/app-movies.png",
-        visit: "https://app-movies-db.netlify.app/",
       },*/
     ],
   };

@@ -11,19 +11,19 @@ const NavSocial = () => {
     <ContainerNav>
       <BtnLink to="/my-projects" src={project} alt="My project" />
       <BtnSocial
-        href="https://ejemplo.com"
+        href="https://www.linkedin.com/in/micaelakorol/"
         src={linkedin}
         alt="Linkedin"
         target="_blank"
       />
       <BtnSocial
-        href="https://ejemplo.com"
+        href="https://github.com/micaelakorol"
         src={github}
         alt="Github"
         target="_blank"
       />
       <BtnSocial
-        href="https://ejemplo.com"
+        href="mailto:micaelakorol@gmail.com"
         src={email}
         alt="Email"
         target="_blank"
