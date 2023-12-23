@@ -1,10 +1,7 @@
 import React from "react";
 import { ContainerNav } from "./styles/NavSocial";
+import { email, linkedin, project, github } from "../../../assets/variables";
 import BtnSocial from "../../reusable/BtnSocial";
-import email from "../../../assets/images/email.svg";
-import linkedin from "../../../assets/images/linkedin.svg";
-import github from "../../../assets/images/github.svg";
-import project from "../../../assets/images/portfolio.svg";
 import BtnLink from "../../reusable/BtnLink";
 const NavSocial = () => {
   return (

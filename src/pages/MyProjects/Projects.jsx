@@ -9,7 +9,7 @@ import {
   ItemProject,
 } from "./styles/Projects";
 import BtnVisitProject from "./elements/BtnVisitProject";
-import back from '../../assets/images/back.svg'
+import { back } from "../../assets/variables";
 import BtnLink from "../../components/reusable/BtnLink";
 
 const Projects = () => {

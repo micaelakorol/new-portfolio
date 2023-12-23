@@ -1,10 +1,14 @@
-const githubPink =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1695322006/portfolio/github_hgu6gw.svg";
+const project =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341780/new-portfolio/portfolio_z6b9w9.svg";
 const linkedin =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1695322007/portfolio/linkedin_mdr2hi.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/linkedin_o1dgxi.svg";
 const email =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1695322006/portfolio/email_fggmry.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/email_fkmgfa.svg";
 const github =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1695322006/portfolio/githubBtn_ctbmce.svg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/github_kbfpaf.svg";
+const back =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/back_wlcqrv.svg";
+const background =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/bg_ifhzdu.svg";
 
-export { githubPink, linkedin, email, github };
+export { linkedin, email, github, project, back, background };
