@@ -21,7 +21,7 @@ const dataProject = {
         visit: "https://app-movies-db.netlify.app/",
       },
 
-      {
+     /* {
         id: 41,
         infoProject: "Figures Training 💪",
         description:
@@ -31,7 +31,7 @@ const dataProject = {
         url: "/",
         image: "https://i.ibb.co/Jvr59g6/project.png",
         visit: "https://site-figurestraining.netlify.app/",
-      },
+      },*/
   
       {
         id: 1,
