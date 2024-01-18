@@ -9,8 +9,9 @@
 }
 html {
   scroll-behavior: smooth;
- background:#DBF1F2; 
+  background-color: #fafafa;
+/* background:#DBF1F2; */
   scroll-behavior: smooth;
-  background-image: url("../assets/images/bg.svg");
+ /* background-image: url("../assets/images/bg.svg");*/
   background-repeat: no-repeat;
 }

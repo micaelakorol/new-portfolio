@@ -7,15 +7,18 @@ const Description = () => {
     <>
       <AboutMe>
         <Items>
-          Desarrolladora Frontend enfocada en tecnologías como React.
+          Estudiante de Analista Programador en la UNLP y desarrolladora
+          Frontend.
           <br />
-          Trabajé en proyectos de desarrollo Freelance, también en desafíos
-          personales, que han sido fundamentales para mi aprendizaje y mejora
-          como Desarrolladora.
+          Cuento con experiencia en proyectos freelance y desafíos personales,
+          donde he utilizado tecnologías como React.js, Firebase entre otras,
+          que han sido fundamentales para mi aprendizaje y mejora como
+          Desarrolladora.
           <br />
-          Mi objetivo es poder colaborar en un equipo, donde pueda contribuir
-          aportando todas mis habilidades, mi compromiso y continuar
-          creciendo en este mundo que tanto me apasiona.
+          Quiero colaborar en un equipo donde predomine el
+          aprendizaje continúo y la colaboración. Mi compromiso es aportar no
+          solo mis habilidades técnicas, sino también mi entusiasmo y dedicación
+          para lograr los objetivos. 
         </Items>
       </AboutMe>
       <LinkContact />

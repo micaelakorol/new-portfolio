@@ -1,5 +1,6 @@
 import React from "react";
 import { BtnContactMe, ContainerBtn } from "../styles/Presentation";
+import { Link } from "react-router-dom";
 
 const LinkContact = () => {
   return (
@@ -10,6 +11,11 @@ const LinkContact = () => {
       >
         ¡Contactame!
       </BtnContactMe>
+      <Link to="/my-projects">
+        <BtnContactMe as='p'>
+          Ver mis proyectos
+        </BtnContactMe>
+      </Link>
     </ContainerBtn>
   );
 };

@@ -15,10 +15,13 @@ const CardProject = styled.ul`
     place-items: center;
     width: 100%;
   }
+  h4{
+    color: ${Color.letterSkills}
+  }
 `;
 
 const Description = styled.p`
-color: ${Color.letterSkills};
+  color: ${Color.dark};
 font-size:1rem;
 `
 
