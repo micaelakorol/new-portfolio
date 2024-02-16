@@ -12,7 +12,6 @@ const otherSkills = {
         name: "Styled-components",
       },
       { id: 2, image: "https://i.ibb.co/2Wsj3xd/git.png", name: "Git" },
-      /*{ id: 3, image: "https://i.ibb.co/djdFDG4/github.png", name: "Github" },*/
     ],
   };
   
