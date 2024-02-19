@@ -16,11 +16,11 @@ const dataProject = {
       description:
         "Exhibe los servicios que ofrece, su ubicación, redes sociales y un pequeño portafolio con sus trabajos. Este sitio fue desarrollado con Nextjs, css modules para estilos y responsive.",
       url: "https://github.com/micaelakorol/landing_cliente_herreria",
-      image: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708105461/portfolio/herreria_wzvhni.png",
+      image: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708346281/landing_page_herreria/herreria_b8tsco.png",
       visit: "https://herreriajavier.netlify.app/",
     },
 
-  /** {
+   {
       id: 4,
       infoProject: "📔Proyecto Personal",
       description:
@@ -29,7 +29,7 @@ const dataProject = {
       url: "https://github.com/micaelakorol/app-movies-db",
       image: "https://i.ibb.co/wJ3z26n/app-movies.png",
       visit: "https://app-movies-db.netlify.app/",
-    },*/
+    },
 
     /* {
         id: 41,
