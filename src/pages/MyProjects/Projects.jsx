@@ -1,16 +1,16 @@
 import React from "react";
-import ProjectImage from "../../components/reusable/ProjectImage";
+import ProjectImage from "../../utils/reusable/ProjectImage";
 import { Animated } from "react-animated-css";
-import dataProject from "./dataProjects/dataProjects";
+import dataProject from "../../utils/dataProjects/dataProjects";
 import {
   CardProject,
   ContainerProject,
   Description,
   ItemProject,
-} from "./styles/Projects";
+} from "../../styled-components/Projects";
 import BtnVisitProject from "./elements/BtnVisitProject";
 import { back } from "../../assets/variables";
-import BtnLink from "../../components/reusable/BtnLink";
+import BtnLink from "../../utils/reusable/BtnLink";
 
 const Projects = () => {
   let data = dataProject.items;

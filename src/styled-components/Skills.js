@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Color } from "../../../styled-components/Color";
+import { Color } from "./Color";
 
 const ContainerSkills = styled.section`
   width: 100vw;
@@ -17,33 +17,38 @@ const TitleSkills = styled.h2`
 `;
 
 const ContainerCardS = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  place-content: center;
   margin: 0 0.5rem;
   cursor: pointer;
+  @media (max-width: 768px) {
+    grid-template-columns: 45% 45%;
+  }
+  @media (max-width: 468px) {
+    grid-template-columns: 80%;
+  }
 `;
 
 const CardItem = styled.li`
   margin: 0.7rem;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 6px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  text-align: center;
+  color: ${Color.darkCard};
   align-items: center;
-  background-color: ${Color.white};
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: transform 0.2s ease-in;
-  &:hover{
+  background-color: ${Color.greenLight};
+  &:hover {
     transform: scale(1.05);
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
-    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   }
   img {
     object-fit: contain;
-    max-width: 110px;
+    max-width: 50px;
+    margin: 0.5rem;
   }
 `;
 

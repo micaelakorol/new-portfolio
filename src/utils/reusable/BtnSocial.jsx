@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkSocial, ImageSocial } from "../MainPrincipal/Navigation/styles/NavSocial";
+import { ImageSocial, LinkSocial } from "../../styled-components/NavSocial";
 
 const BtnSocial = ({ href,src,alt, target }) => {
   return (

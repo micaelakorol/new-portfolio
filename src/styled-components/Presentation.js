@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import { Color } from "../../../../styled-components/Color";
+import { Color } from "./Color";
 
 const Presentation = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
   padding: 1rem;
   margin: 2rem 0 6rem 0;
 `;
@@ -14,20 +13,22 @@ const Presentation = styled.main`
 const AboutMe = styled.section`
   width: 50%;
   padding: 1rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const AboutTitle = styled.h1`
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.7rem;
   color: ${Color.letterSkills};
-  //sombras
 `;
 const ContainerBtn = styled.section`
   width: 70%;
   display: flex;
   justify-content: center;
   padding: 0.6rem;
-  @media (max-width: 568px) {
+  @media (max-width: 768px) {
     flex-wrap: wrap;
     width: 100%;
     margin: 0;
@@ -44,7 +45,6 @@ const BtnContactMe = styled.a`
   color: ${Color.aboutMe};
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
   position: relative;
   padding-bottom: 2px;
   border-bottom: 2px solid ${Color.greenDark};

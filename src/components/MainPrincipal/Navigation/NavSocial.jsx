@@ -1,8 +1,8 @@
 import React from "react";
-import { ContainerNav } from "./styles/NavSocial";
+import { ContainerNav } from "../../../styled-components/NavSocial";
 import { email, linkedin, project, github } from "../../../assets/variables";
-import BtnSocial from "../../reusable/BtnSocial";
-import BtnLink from "../../reusable/BtnLink";
+import BtnSocial from "../../../utils/reusable/BtnSocial";
+import BtnLink from '../../../utils/reusable/BtnLink';
 const NavSocial = () => {
   return (
     <ContainerNav>

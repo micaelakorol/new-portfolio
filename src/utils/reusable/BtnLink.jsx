@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ContainerIcon, ImageSocial } from '../MainPrincipal/Navigation/styles/NavSocial'
+import { ContainerIcon, ImageSocial } from '../../styled-components/NavSocial'
 
 const BtnLink = ({src,to,alt}) => {
   return (

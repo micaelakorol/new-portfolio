@@ -1,5 +1,5 @@
 import React from "react";
-import { BtnContactMe, ContainerBtn } from "../styles/Presentation";
+import { BtnContactMe, ContainerBtn } from "../../../../styled-components/Presentation";
 import { Link } from "react-router-dom";
 
 const LinkContact = () => {

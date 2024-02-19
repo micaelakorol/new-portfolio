@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Color } from "../../../styled-components/Color";
+import { Color } from "./Color";
 
 const ContainerProject = styled.section`
   width: 100%;
@@ -10,21 +10,20 @@ const CardProject = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   width: 90%;
   margin: auto;
-  @media(max-width:1078px){
+  @media (max-width: 1078px) {
     grid-template-columns: 1fr;
     place-items: center;
     width: 100%;
   }
-  h4{
-    color: ${Color.letterSkills}
+  h4 {
+    color: ${Color.letterSkills};
   }
 `;
 
 const Description = styled.p`
   color: ${Color.dark};
-font-size:1rem;
-`
-
+  font-size: 1rem;
+`;
 
 const ItemProject = styled.li`
   max-width: 500px;
@@ -46,14 +45,14 @@ const ItemProject = styled.li`
     margin: 0.5rem;
     padding: 1rem;
   }
-  a{
-    margin:.5rem;
+  a {
+    margin: 0.5rem;
   }
-  @media(max-width:600px) {
-    img{
+  @media (max-width: 600px) {
+    img {
       display: none;
     }
   }
 `;
 
-export { ContainerProject, CardProject, ItemProject,Description };
+export { ContainerProject, CardProject, ItemProject, Description };

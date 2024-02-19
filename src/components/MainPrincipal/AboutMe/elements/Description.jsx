@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutMe, Items } from "../styles/Presentation";
+import { AboutMe, Items } from "../../../../styled-components/Presentation";
 import LinkContact from "./LinkContact";
 
 const Description = () => {
