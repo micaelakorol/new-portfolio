@@ -5,8 +5,9 @@ const ContainerNav = styled.nav`
   width: 100%;
   display: flex;
   justify-content: end;
+  align-items: center;
   flex-wrap: wrap;
-  background-color: ${Color.greenLight};
+  border-bottom: 1px solid #eaeaea;
 `;
 
 const LinkSocial = styled.a`
