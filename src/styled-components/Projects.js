@@ -3,6 +3,11 @@ import { Color } from "./Color";
 
 const ContainerProject = styled.section`
   width: 100%;
+
+  .back{
+    width: 21px;
+    height: 21px;
+  }
 `;
 
 const CardProject = styled.ul`

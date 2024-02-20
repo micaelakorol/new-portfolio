@@ -21,7 +21,7 @@ const dataProject = {
     },
 
    {
-      id: 4,
+      id: 14,
       infoProject: "📔Proyecto Personal",
       description:
         "Movie flix es un sitio de busqueda de peliculas. Permite navegar entre rutas, apreciar valoraciones de usuarios, cambiar de tema oscuro/claro y un formulario de contacto conectado a una base de datos creada en Cloud Firestore. API utilizada: 'The movie DB'",

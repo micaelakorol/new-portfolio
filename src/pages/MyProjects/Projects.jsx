@@ -10,14 +10,14 @@ import {
 } from "../../styled-components/Projects";
 import BtnVisitProject from "./elements/BtnVisitProject";
 import { back } from "../../assets/variables";
-import BtnLink from "../../utils/reusable/BtnLink";
+import BtnBack from "./elements/BtnBack";
 
 const Projects = () => {
   let data = dataProject.items;
   return (
     <Animated animationIn="fadeInLeft" animationOut="fadeOut">
       <ContainerProject>
-      <BtnLink to="/" src={back} alt="Back" />
+      <BtnBack to="/" src={back} alt="Back" />
         <CardProject>
           {data.map((item) => (
             <ItemProject key={item.id}>

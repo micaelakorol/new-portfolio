@@ -1,12 +1,23 @@
 import React from "react";
 import { ContainerNav } from "../../../styled-components/NavSocial";
-import { email, linkedin, project, github } from "../../../assets/variables";
+import {
+  email,
+  linkedin,
+  project,
+  github,
+  download,
+} from "../../../assets/variables";
 import BtnSocial from "../../../utils/reusable/BtnSocial";
-import BtnLink from '../../../utils/reusable/BtnLink';
+import cv from "./MicaelaKorolCV.pdf";
 const NavSocial = () => {
   return (
     <ContainerNav>
-      <BtnLink to="/my-projects" src={project} alt="My project" />
+      <BtnSocial
+        href={cv}
+        download="Micaela Korol CV"
+        src={download}
+        alt="download"
+      />
       <BtnSocial
         href="https://www.linkedin.com/in/micaelakorol/"
         src={linkedin}

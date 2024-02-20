@@ -10,5 +10,6 @@ const back =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/back_wlcqrv.svg";
 const background =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1703341779/new-portfolio/bg_ifhzdu.svg";
+  const download = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708451427/new-portfolio/download_utsz9k.svg"
 
-export { linkedin, email, github, project, back, background };
+export { linkedin, email, github, project, back, background, download };

@@ -5,27 +5,22 @@ const ContainerNav = styled.nav`
   width: 100%;
   display: flex;
   justify-content: end;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-end;
   border-bottom: 1px solid #eaeaea;
 `;
 
 const LinkSocial = styled.a`
-  margin: 0 0.2rem 0 0.2rem;
-  padding: 0.5rem;
+padding: .4rem;
 `;
 
 const ImageSocial = styled.img`
   cursor: pointer;
   padding: 0.4rem;
+  margin: .4rem 0;
   &:hover {
     background-color: ${Color.greenDark};
     clip-path: circle(50%);
   }
 `;
-const ContainerIcon = styled.div`
-  padding: 0.5rem;
-  margin: 0 0.2rem 0 0.2rem;
-`;
 
-export { LinkSocial, ImageSocial, ContainerNav, ContainerIcon };
+export { LinkSocial, ImageSocial, ContainerNav };
