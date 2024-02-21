@@ -10,7 +10,7 @@ const ContainerNav = styled.nav`
 `;
 
 const LinkSocial = styled.a`
-padding: .4rem;
+margin: .3rem
 `;
 
 const ImageSocial = styled.img`
